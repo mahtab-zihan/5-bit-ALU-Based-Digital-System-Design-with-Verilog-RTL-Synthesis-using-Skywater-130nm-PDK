@@ -1,0 +1,189 @@
+$date
+	Tue Jun 10 16:24:17 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module top_tb $end
+$var wire 1 ! flag_gt_zero $end
+$var wire 5 " result [4:0] $end
+$var wire 1 # done $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$scope module uut $end
+$var wire 1 $ clk $end
+$var wire 1 ! flag_gt_zero $end
+$var wire 1 % reset $end
+$var wire 5 & result [4:0] $end
+$var wire 1 # done $end
+$var wire 1 ' ZF $end
+$var wire 1 ( SF $end
+$var wire 5 ) R_result [4:0] $end
+$var wire 1 * OP $end
+$var wire 5 + B [4:0] $end
+$var wire 5 , A [4:0] $end
+$scope module controller1 $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var parameter 3 - FINISH $end
+$var parameter 3 . ONE $end
+$var parameter 3 / START $end
+$var parameter 3 0 THREE $end
+$var parameter 3 1 TWO $end
+$var reg 5 2 A [4:0] $end
+$var reg 5 3 B [4:0] $end
+$var reg 1 * OP $end
+$var reg 1 # done $end
+$var reg 1 4 flag $end
+$var reg 3 5 nstate [2:0] $end
+$var reg 3 6 pstate [2:0] $end
+$var reg 5 7 result [4:0] $end
+$upscope $end
+$scope module datapath1 $end
+$var wire 5 8 A [4:0] $end
+$var wire 5 9 B [4:0] $end
+$var wire 1 : CF $end
+$var wire 1 * OP $end
+$var wire 1 ' ZF $end
+$var wire 1 ( SF $end
+$var wire 5 ; R_ROL [4:0] $end
+$var wire 5 < R_NOT [4:0] $end
+$var reg 5 = result [4:0] $end
+$scope module NOT1 $end
+$var wire 5 > A [4:0] $end
+$var wire 5 ? result [4:0] $end
+$upscope $end
+$scope module ROL1 $end
+$var wire 5 @ in [4:0] $end
+$var wire 3 A shift [2:0] $end
+$var reg 5 B out [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 1
+b11 0
+b0 /
+b1 .
+b100 -
+$end
+#0
+$dumpvars
+b0 B
+b0 A
+b0 @
+b11111 ?
+b0 >
+b11111 =
+b11111 <
+b0 ;
+0:
+b0 9
+b0 8
+bx 7
+b0 6
+b1 5
+04
+b0 3
+b0 2
+b0 ,
+b0 +
+0*
+b11111 )
+1(
+0'
+bx &
+1%
+0$
+0#
+bx "
+x!
+$end
+#5
+1$
+#10
+0$
+0%
+#15
+b11010 )
+b11010 =
+b11010 <
+b11010 ?
+b101 ;
+b101 B
+b10 5
+b101 ,
+b101 2
+b101 8
+b101 >
+b101 @
+b1 6
+1$
+#20
+0$
+#25
+0!
+0(
+b1 )
+b1 =
+b1 A
+b1111 <
+b1111 ?
+b1 ;
+b1 B
+b11 5
+1*
+b1 +
+b1 3
+b1 9
+b10000 ,
+b10000 2
+b10000 8
+b10000 >
+b10000 @
+b10 6
+1$
+#30
+0$
+#35
+x!
+1(
+b11111 )
+b11111 =
+b0 A
+b11111 <
+b11111 ?
+b0 ;
+b0 B
+b100 5
+0*
+b0 +
+b0 3
+b0 9
+b0 ,
+b0 2
+b0 8
+b0 >
+b0 @
+b11 6
+1$
+#40
+0$
+#45
+1#
+b100 6
+1$
+#50
+0$
+#55
+1$
+#60
+0$
+#65
+1$
